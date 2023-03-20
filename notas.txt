@@ -1,0 +1,21 @@
+npm=yarn
+npx=yarn
+yarn hardhat compile
+yarn add --dev prettier-plugin-solidity
+yarn add --dev dotenv
+yarn hardhat run scripts/deploy.js --network sepolia
+yarn hardhat block-number --network sepolia
+yarn hardhat node
+yarn hardhat clean
+yarn hardhat test
+yarn add --dev hardhat-gas-reporter
+yarn add --dev ethers@5.7.2
+yarn add --dev solidity-coverage
+yarn hardhat coverage
+yarn add @nomiclabs/hardhat-solhint
+yarn solhint contracts/*.sol
+yarn add --dev @chainlink/contracts
+yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers sobreeescribe ethers con hardhat deploy 
+Hard had network: fake network running in backgrownd doesn't required privatekey or rpc url
+
+yarn hardhat run scripts/fund.js --network localhost
